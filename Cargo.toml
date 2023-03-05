@@ -1,5 +1,5 @@
 [package]
-name = "Snake"
+name = "snake"
 version = "0.1.0"
 edition = "2021"
 authors = ["Piotr Wieczorek"]
@@ -8,4 +8,8 @@ authors = ["Piotr Wieczorek"]
 
 [dependencies]
 rocket = "0.5.0-rc.2"
-
+array2d = "0.3.0"
+rand = "0.8.5"
+indexmap = "1.9.2"
+config-file = "0.2.3"
+serde = "1.0.152"

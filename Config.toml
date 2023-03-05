@@ -1,0 +1,4 @@
+width = 5
+height = 6
+duration_between_moves = 3
+probability_of_appear_of_fruit = 0.5
