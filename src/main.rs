@@ -1,4 +1,3 @@
-#![feature(iter_intersperse)]
 mod config;
 mod direction_enum;
 mod endpoints;
