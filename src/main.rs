@@ -18,7 +18,7 @@ use std::thread;
 
 #[rocket::main]
 async fn main() {
-    let config = read_config("config.toml");
+    let config = read_config("Config.toml");
 
     let directions1 = Arc::new(Mutex::new(Vec::<Direction>::new()));
     let directions2 = Arc::clone(&directions1);
